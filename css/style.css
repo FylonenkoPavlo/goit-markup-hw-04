@@ -37,6 +37,7 @@ body {
 }
 
 .link {
+  display: block;
   text-decoration: none;
 }
 
@@ -85,7 +86,6 @@ body {
 }
 
 .navigation-list-link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -152,12 +152,12 @@ body {
 
 .header-adress-link {
   display: inline-flex;
-  justify-items: center;
   align-items: center;
-  text-align: center;
   color: var(--text-light-theme-color);
 }
 .adress-list-icon {
+  width: 16px;
+  height: 16px;
   fill: currentColor;
   margin-right: 10px;
 }
@@ -415,7 +415,6 @@ body {
 }
 
 .footer-logo {
-  display: block;
   padding-bottom: 20px;
   color: var(--accent-color);
 }
