@@ -141,11 +141,7 @@ body {
 
   fill: var(--text-light-theme-color);
 }
-.adress-list-item {
-  display: inline-flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .adress-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -160,8 +156,6 @@ body {
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
-}
-.adress-text {
 }
 
 .header-adress-link:focus,
