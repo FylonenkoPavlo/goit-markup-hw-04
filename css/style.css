@@ -147,7 +147,7 @@ body {
 }
 
 .header-adress-link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   color: var(--text-light-theme-color);
 }
